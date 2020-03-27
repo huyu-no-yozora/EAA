@@ -5,7 +5,7 @@
 
 ## Table of Contents
 <!-- toc -->
-* Contents(#contents)
+* [Contents](#contents)
 * [Reference](#reference)
 <!-- toc -->
 
