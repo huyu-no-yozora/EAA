@@ -2,7 +2,7 @@
 
 ## 用語
 SAML:
-XMLで認証可否の情報（ポリシーのようなもの）をやり取りするという規格
+XMLで認証可否の情報（ポリシーのようなもの）をやり取りするという規格。
 CloudやSSOでよく使われるようだ。
 
 AD:
@@ -10,16 +10,16 @@ AD:
 
 
 IdP:
-認証・認可を行う。(関連ワード: Assertion/SAML Assertion)
-つまり、 "認可を出す場所" とも言える。
-認証の仕組みの部分。
+認証・認可を行う。(関連ワード: Assertion/SAML Assertion)<br>
+つまり、 "認可を出す場所" とも言える。<br>
+認証の仕組みの部分。<br>
 IdPという言葉には "フィルタ" のような感覚も持っていると良い。
 
 * SAMLのIdP
 > Keycloakは、RedHatが開発している比較的新しいシングルサインオンのソフトウェアで、SAMLのIdPとして利用することができます。
 
 AD FS:
-IdPの一種。
+IdPの一種。<br>
 ADを使ったフェデレーションの他にも、LDAP(Light Weight Directory Access Protocol)や、
 SQL Serverに格納されたIDなどを用いたユーザ認証が可能。(ref: [書籍:日経BP] Windows Server 2016 p.388)
 
@@ -31,6 +31,7 @@ SQL Serverに格納されたIDなどを用いたユーザ認証が可能。(ref:
 ## SAMLの２種類のFlow Type
 1. IdP initiated
 1. SP initiated
+<br>
 参考: [SAML flows](https://learn.akamai.com/en-us/webhelp/enterprise-application-access/enterprise-application-access/GUID-7EA59AA6-F5AB-4402-8F59-AD274FDDA81B.html)
 
 ## 社内ADをIdPとして使用する場合の設定
@@ -57,10 +58,5 @@ Akamai側に作成(deploy)するか、サードパーティ製の製品等を使
 * [SAML | Security Assertion Markup Language | サムル | サムエル](https://support.trustlogin.com/hc/ja/articles/231915988-SAML-Security-Assertion-Markup-Language-%E3%82%B5%E3%83%A0%E3%83%AB-%E3%82%B5%E3%83%A0%E3%82%A8%E3%83%AB)
 * [IdPとは](https://www.designet.co.jp/faq/term/?id=SWRQ)
 
-
-***
-
-### AD Port
-[AD Port](https://docs.microsoft.com/en-us/archive/blogs/jpntsblog/563)
 
 
